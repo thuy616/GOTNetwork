@@ -1,0 +1,74 @@
+<!-- Import Sigma JS -->
+<script src="./lib/sigma.min.js"></script>
+<script src="./lib/plugins/sigma.layout.forceAtlas2.min.js"></script>
+<script src="./lib/plugins/sigma.parsers.json.min.js"></script>
+<script src="./data/house_colors.js"></script>
+<!-- Add some CSS so we can see the graph! -->
+<style>
+#network-graph {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+</style>
+
+<!-- A placeholder for the graph -->
+<div id="network-graph"></div>
+
+<!-- The most basic usage of the Sigma JSON parser -->
+<script>
+
+var characters_url = "./data/network.json";
+var colors_array = {};
+
+function loadColors() {
+  house_colors.forEach(function(item){
+    colors_array[item.family] = item.color;
+  });
+}
+
+sigma.parsers.json( characters_url,
+  {container: 'network-graph'},
+    function(s) { 
+    //This function is passed an instance of Sigma s
+
+   // this below adds x, y attributes as well as size = degree of the node 
+
+   loadColors();
+
+   s.graph.nodes().forEach(function(node, i, a) {
+              // initialize nodes as a circle
+              node.x = Math.cos(Math.PI * 2 * i / a.length);
+              node.y = Math.sin(Math.PI * 2 * i / a.length);
+              var pov_weight = node.pov ? node.pov : 1;
+              node.size = s.graph.degree(node.id) * pov_weight;
+              node.color = colors_array[node.house] ? colors_array[node.house] : "#666";
+              node.label = node.name;
+            });
+
+   if (selectedNode != undefined){
+    console.log("selected: " + selectedNode);
+    s.cameras[0].goTo({x:selectedNode['read_cam0:x'],y:selectedNode['read_cam0:y'],ratio:0.1});
+  }
+
+  s.bind('overNode clickNode doubleClickNode', function(e) {
+    console.log("clicked!");
+    e.data.node.label = e.data.node.name + ": " + e.data.node.description;
+  });
+  s.bind('outNode', function(e) {
+    console.log("out");
+    e.data.node.label = e.data.node.name;
+  });
+
+  // Refresh the display:
+  s.refresh();
+
+  // ForceAtlas Layout
+  s.startForceAtlas2();
+
+
+});
+
+</script>

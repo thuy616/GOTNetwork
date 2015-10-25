@@ -1,0 +1,625 @@
+{
+  "edges" : [
+    {
+      "id": "1",
+      "source": "ned",
+      "target": "jon"
+    },
+    {
+      "id": "2",
+      "source": "ned",
+      "target": "catelyn"
+    },
+    {
+      "id": "3",
+      "source": "ned",
+      "target": "robb"
+    },
+    {
+      "id": "4",
+      "source": "ned",
+      "target": "arya"
+    },
+    {
+      "id": "5",
+      "source": "ned",
+      "target": "benjen"
+    },
+    {
+      "id": "6",
+      "source": "ned",
+      "target": "lyanna"
+    },
+    {
+      "id": "7",
+      "source": "ned",
+      "target": "rickon"
+    },
+    {
+      "id": "8",
+      "source": "ned",
+      "target": "bran"
+    },
+    {
+      "id": "9",
+      "source": "benjen",
+      "target": "jon"
+    },
+    {
+      "id": "10",
+      "source": "catelyn",
+      "target": "robb"
+    },
+    {
+      "id": "11",
+      "source": "catelyn",
+      "target": "sansa"
+    },
+    {
+      "id": "12",
+      "source": "catelyn",
+      "target": "arya"
+    },
+    {
+      "id": "13",
+      "source": "catelyn",
+      "target": "rickon"
+    },
+    {
+      "id": "14",
+      "source": "catelyn",
+      "target": "bran"
+    },
+    {
+      "id": "15",
+      "source": "bran",
+      "target": "rickon"
+    },
+    {
+      "id": "16",
+      "source": "ned",
+      "target": "robert-baratheon"
+    },
+    {
+      "id": "17",
+      "source": "ned",
+      "target": "theon"
+    },
+    {
+      "id": "18",
+      "source": "robert-baratheon",
+      "target": "tywin"
+    },
+    {
+      "id": "19",
+      "source": "robert-baratheon",
+      "target": "tywin"
+    },
+    {
+      "id": "20",
+      "source": "robert-baratheon",
+      "target": "cersei"
+    },
+    {
+      "id": "21",
+      "source": "robert-baratheon",
+      "target": "joffrey"
+    },
+    {
+      "id": "22",
+      "source": "robert-baratheon",
+      "target": "tommen"
+    },
+    {
+      "id": "23",
+      "source": "robert-baratheon",
+      "target": "myrcella"
+    },
+    {
+      "id": "24",
+      "source": "robert-baratheon",
+      "target": "stannis"
+    },
+    {
+      "id": "25",
+      "source": "robert-baratheon",
+      "target": "renly"
+    },
+    {
+      "id": "26",
+      "source": "robert-baratheon",
+      "target": "lyanna"
+    },
+    {
+      "id": "27",
+      "source": "tywin",
+      "target": "jaime"
+    },
+    {
+      "id": "28",
+      "source": "tywin",
+      "target": "cersei"
+    },
+    {
+      "id": "29",
+      "source": "tywin",
+      "target": "tyrion"
+    },
+    {
+      "id": "30",
+      "source": "jaime",
+      "target": "tyrion"
+    },
+    {
+      "id": "31",
+      "source": "jaime",
+      "target": "cersei"
+    },
+    {
+      "id": "32",
+      "source": "cersei",
+      "target": "tyrion"
+    },
+    {
+      "id": "33",
+      "source": "jaime",
+      "target": "joffrey"
+    },
+    {
+      "id": "34",
+      "source": "jaime",
+      "target": "tommen"
+    },
+    {
+      "id": "35",
+      "source": "jaime",
+      "target": "myrcella"
+    },
+    {
+      "id": "36",
+      "source": "cersei",
+      "target": "joffrey"
+    },
+    {
+      "id": "37",
+      "source": "cersei",
+      "target": "tommen"
+    },
+    {
+      "id": "38",
+      "source": "cersei",
+      "target": "myrcella"
+    },
+    {
+      "id": "39",
+      "source": "tyrion",
+      "target": "daenerys"
+    },
+    {
+      "id": "40",
+      "source": "daenerys",
+      "target": "drogo"
+    },
+    {
+      "id": "41",
+      "source": "daenerys",
+      "target": "viserys"
+    },
+    {
+      "id": "42",
+      "source": "jaime",
+      "target": "brienne"
+    },
+    {
+      "id": "43",
+      "source": "catelyn",
+      "target": "brienne"
+    },
+    {
+      "id": "44",
+      "source": "renly",
+      "target": "brienne"
+    },
+    {
+      "id": "45",
+      "source": "joffrey",
+      "target": "sansa"
+    },
+    {
+      "id": "46",
+      "source": "jon",
+      "target": "sam"
+    },
+    {
+      "id": "47",
+      "source": "stannis",
+      "target": "davos"
+    },{
+      "id": "48",
+      "source": "stannis",
+      "target": "jon"
+    },
+    {
+      "id": "49",
+      "source": "stannis",
+      "target": "melisandre"
+    },
+    {
+      "id": "50",
+      "source": "melisandre",
+      "target": "jon"
+    },
+    {
+      "id": "51",
+      "source": "robert-baratheon",
+      "target": "barristan"
+    },
+    {
+      "id": "52",
+      "source": "daenerys",
+      "target": "barristan"
+    },
+    {
+      "id": "53",
+      "source": "daenerys",
+      "target": "grey-worm"
+    },
+    {
+      "id": "54",
+      "source": "daenerys",
+      "target": "missandei"
+    },
+    {
+      "id": "55",
+      "source": "grey-worm",
+      "target": "missandei"
+    },
+    {
+      "id": "56",
+      "source": "ned",
+      "target": "sansa"
+    },
+    {
+      "id": "57",
+      "source": "sansa",
+      "target": "theon"
+    },
+    {
+      "id": "58",
+      "source": "arya",
+      "target": "jon"
+    },
+    {
+      "id": "59",
+      "source": "arya",
+      "target": "sansa"
+    },
+    {
+      "id": "60",
+      "source": "tywin",
+      "target": "joffrey"
+    },
+    {
+      "id": "61",
+      "source": "tyrion",
+      "target": "joffrey"
+    },
+    {
+      "id": "62",
+      "source": "tyrion",
+      "target": "jon"
+    },
+    {
+      "id": "63",
+      "source": "joffrey",
+      "target": "the-hound"
+    },
+    {
+      "id": "64",
+      "source": "the-hound",
+      "target": "arya"
+    },
+    {
+      "id": "65",
+      "source": "the-hound",
+      "target": "sansa"
+    },
+    {
+      "id": "66",
+      "source": "the-hound",
+      "target": "the-mountain"
+    },
+    {
+      "id": "67",
+      "source": "cersei",
+      "target": "the-mountain"
+    }
+
+  ],
+  "nodes": [
+    {
+      "name": "Eddard \"Ned\" Stark",
+      "description": "Lord of Winterfell - Warden of the North - Hand of the King - Married to Catelyn (Tully) Stark",
+      "house": "Stark",
+      "points": 10,
+      "id": "ned", 
+      "pov": "15"
+    },
+    {
+      "name": "Catelyn (Tully) Stark",
+      "description": "Married to Eddard Stark - Daughter of Hoster Tully",
+      "house": "Stark",
+      "points": 10,
+      "id": "catelyn",
+      "pov": "25"
+    },
+    {
+      "name": "Benjen Stark",
+      "description": "Brother of Eddard Stark - First ranger of the Night's Watch",
+      "house": "Stark",
+      "points": 1,
+      "id": "benjen"
+    },
+    {
+      "name": "Lyanna Stark",
+      "description": "Eddard's younger sister - Betrothed to Robert Baratheon",
+      "house": "Stark",
+      "points": 1,
+      "id": "lyanna"
+    },
+    {
+      "name": "Robb Stark",
+      "description": "Son of Eddard and Catelyn Stark - Direwolf: Grey Wind",
+      "house": "Stark",
+      "points": 4,
+      
+      "id": "robb"
+    },
+    {
+      "name": "Sansa Stark",
+      "description": "Daughter of Eddard and Catelyn Stark - Direwolf: Lady",
+      "house": "Stark",
+      "points": 15,
+      "id": "sansa",
+      "pov": "25"
+    },
+    {
+      "name": "Arya Stark",
+      "description": "Daughter of Eddard and Catelyn Stark - Direwolf: Nymeria",
+      "house": "Stark",
+      "points": 15,
+      "id": "arya",
+      "pov": "34"
+    },
+    {
+      "name": "Brandon \"Bran\" Stark",
+      "description": "Son of Eddard and Catelyn Stark - Direwolf: Summer",
+      "house": "Stark",
+      "points": 5,
+      "id": "bran",
+      "pov": "21"
+    },
+    {
+      "name": "Rickon Stark",
+      "description": "Son of Eddard and Catelyn Stark - Direwolf: Shaggydog",
+      "house": "Stark",
+      "points": 2,
+      
+      "id": "rickon"
+    },
+    {
+      "name": "Jon Snow",
+      "description": "Bastard son of Eddard Stark - 998th Lord Commander of the Night's Watch - Direwolf: Ghost",
+      "house": "Stark",
+      "points": 20,
+      
+      "id": "jon",
+      "pov": "42"
+    },
+    {
+      "name": "Tywin Lannister",
+      "description": "Lord of Casterly Rock - Warden of the West",
+      "house": "Lannister",
+      "points": 10,
+      "id": "tywin"
+    },
+    {
+      "name": "Tyrion Lannister",
+      "description": "Son of Tywin Lannister - The Imp",
+      "house": "Lannister",
+      "points": 20,
+      "id": "tyrion",
+      "pov": "49"
+    },
+    {
+      "name": "Jaime Lannister",
+      "description": "The Kingslayer - Knight of the Kingsgaurd - Son of Tywin Lannister",
+      "house": "Lannister",
+      "points": 8,
+      "id": "jaime",
+      "pov": "17"
+    },
+    {
+      "name": "Queen Cersei (Lannister) Baratheon",
+      "description": "Married to King Robert Baratheon - Daughter of Tywin Lannister",
+      "house": "Lannister",
+      "id": "cersei",
+      "pov": "12"
+    },
+    {
+      "name": "King Robert Baratheon",
+      "description": "The first of his name - Lord of the Seven Kingdoms",
+      "house": "Baratheon",
+      "points": 4,
+      
+      "id": "robert-baratheon"
+    },
+    {
+      "name": "Stannis Baratheon",
+      "description": "Lord of Dragonstone - Master of Ships - Brother of Robert Baratheon",
+      "house": "Baratheon",
+      "points": 7,
+      "id": "stannis"
+    },
+    {
+      "name": "Renly Baratheon",
+      "description": "Lord of Storm's End - Master of Laws - Brother of Robert Baratheon",
+      "house": "Baratheon",
+      "points": 5,
+      
+      "id": "renly"
+    },
+    {
+      "name": "Joffrey Baratheon",
+      "description": "Heir to the Iron Throne - Son of Robert and Cersei Baratheon",
+      "house": "Baratheon",
+      "points": 7,
+      
+      "id": "joffrey"
+    },
+    {
+      "name": "Tommen Baratheon",
+      "description": "Son of Robert and Cersei Baratheon",
+      "house": "Baratheon",
+      "points": 2,
+      
+      "id": "tommen"
+    },
+    {
+      "name": "Myrcella Baratheon",
+      "description": "Daughter of Robert and Cersei Baratheon",
+      "house": "Baratheon",
+      "points": 2,
+      
+      "id": "myrcella"
+    },
+    {
+      "name": "Daenerys Targaryen",
+      "description": "Stormborn - Khaleesi of the Dothraki - The Unburnt - Mother of Dragons - Daughter of Aerys II Targaryen \"The Mad King\"",
+      "house": "Targaryen",
+      "points": 20,
+      
+      "id": "daenerys",
+      "pov": "31"
+    },
+    {
+      "name": "Khal Drogo",
+      "description": "Leader of the Dothraki people - Dothraki Warlord - Married to Daenerys Targaryen",
+      "house": "Dothraki",
+      "points": 5,
+      
+      "id": "drogo"
+    },
+    {
+      "name": "Viserys Targaryen",
+      "description": "The Beggar King - Son of Aerys II Targaryen \"The Mad King\"",
+      "house": "Targaryen",
+      "points": 2,
+      
+      "id": "viserys"
+    },
+    {
+      "name": "Balon Greyjoy",
+      "description": "Lord Reaper of Pyke - Head of House Greyjoy",
+      "house": "Greyjoy",
+      "points": 1,
+     
+      "id": "balon"
+    },
+    {
+      "name": "Theon Greyjoy",
+      "description": "Ward of the Starks - Heir to the Iron Islands - Son of Balon Greyjoy",
+      "house": "Greyjoy",
+      "points": 5,
+      "id": "theon",
+      "pov": "14"
+    },
+    {
+      "name": "Asha Greyjoy",
+      "description": "Ironborn - Daughter of Balon Greyjoy - Sister of Theon Greyjoy",
+      "house": "Greyjoy",
+      "points": 2,
+      "id": "asha",
+      "pov": "4"
+    },
+    {
+      "name": "Davos Seaworth",
+      "description": "Onion Knight - Head of House Seaworth - Stannis Baratheon's most honest and loyal supporter",
+      "house" : "Seaworth",
+      "points" : "5",
+      "id": "davos",
+      "pov": "13"
+    },
+    {
+      "name": "Samwell Tarly",
+      "description": "Steward of the Night's Watch - he is sent to the Citadel in Oldtown by Lord Commander Jon Snow in order to train as a Maester so that he may better serve the Watch",
+      "house" : "Tarly",
+      "points" : "5",
+      "id": "sam",
+      "pov": "10"
+    },
+    {
+      "name": "Brienne of Tarth",
+      "description": "Guard of Renly Baratheon - Becomes the sworn sword of Catelyn Stark and vows to avenge Renly's death",
+      "house" : "Tarth",
+      "points": "5",
+      "id": "brienne",
+      "pov": "8"
+    },
+    {
+      "name": "Quentyn Martell",
+      "description": "",
+      "house" : "Martell",
+      "points": "2",
+      "id": "quentyn-martell",
+      "pov": "4"
+    },
+    {
+      "name": "Melisandre",
+      "description": "Priestess of R'hllor and a shadowbinder, hailing from the eastern city of Asshai",
+      "house" : "Asshai",
+      "points": "5",
+      "id": "melisandre",
+      "pov": "1"
+    },
+    {
+      "name": "Barristan Selmy",
+      "description": "Barristan the Bold - A Knight from House Selmy and Lord Commander of the Kingsgaurd of Robert Baratheon",
+      "house" : "Selmy",
+      "points": "5",
+      "id": "barristan",
+      "pov": "6"
+    },
+    {
+      "name": "Grey Worm",
+      "description": "Commander of Daenerys's Unsullied and one of her trusted advisors",
+      "house" : "Unsullied",
+      "points": "5",
+      "id": "grey-worm"
+    },
+    {
+      "name": "Missandei",
+      "description": "Intepreter for Daenerys",
+      "house" : "Others",
+      "points": "2",
+      "id": "missandei"
+    },
+    {
+      "name": "Sandor Clegane",
+      "description": "The Hound - Guard for King Joffrey",
+      "house" : "Clegane",
+      "points": "5",
+      "id": "the-hound"
+    },
+    {
+      "name": "Gregor Clegane",
+      "description": "The Mountain - Head of House Clegane, which are landed knights and bannermen to House Lannister",
+      "house" : "Clegane",
+      "points": "2",
+      "id": "the-mountain"
+    }
+  ]
+}
+
+
+  
