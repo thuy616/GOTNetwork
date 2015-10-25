@@ -48,11 +48,6 @@ sigma.parsers.json( characters_url,
               node.label = node.name;
             });
 
-   if (selectedNode != undefined){
-    console.log("selected: " + selectedNode);
-    s.cameras[0].goTo({x:selectedNode['read_cam0:x'],y:selectedNode['read_cam0:y'],ratio:0.1});
-  }
-
   s.bind('overNode clickNode doubleClickNode', function(e) {
     console.log("clicked!");
     e.data.node.label = e.data.node.name + ": " + e.data.node.description;
