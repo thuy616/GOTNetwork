@@ -333,8 +333,137 @@
       "id": "67",
       "source": "cersei",
       "target": "the-mountain"
+    },
+    {
+      "id": "68",
+      "source": "tyrion",
+      "target": "sansa"
+    },
+    {
+      "id": "69",
+      "source": "joffrey",
+      "target": "magaery"
+    },
+    {
+      "id": "70",
+      "source": "renly",
+      "target": "magaery"
+    },
+    {
+      "id": "71",
+      "source": "cersei",
+      "target": "magaery"
+    },
+    {
+      "id": "72",
+      "source": "littlefinger",
+      "target": "catelyn"
+    },
+    {
+      "id": "73",
+      "source": "littlefinger",
+      "target": "sansa"
+    },
+    {
+      "id": "74",
+      "source": "varys",
+      "target": "littlefinger"
+    },
+    {
+      "id": "75",
+      "source": "littlefinger",
+      "target": "cersei"
+    },
+    {
+      "id": "76",
+      "source": "varys",
+      "target": "ned"
+    },
+    {
+      "id": "77",
+      "source": "varys",
+      "target": "tyrion"
+    },
+    {
+      "id": "78",
+      "source": "varys",
+      "target": "daenerys"
+    },
+    {
+      "id": "79",
+      "source": "varys",
+      "target": "cersei"
+    },
+    {
+      "id": "80",
+      "source": "varys",
+      "target": "robert-baratheon"
+    },
+    {
+       "id": "81",
+      "source": "littlefinger",
+      "target": "ned"
+    },
+    {
+     "id": "82",
+      "source": "littlefinger",
+      "target": "joffrey"
+    },
+    {
+     "id": "83",
+      "source": "magaery",
+      "target": "loras"
+    },
+    {
+     "id": "83",
+      "source": "renly",
+      "target": "loras"
+    },
+    {
+     "id": "84",
+      "source": "cersei",
+      "target": "loras"
+    },
+    {
+     "id": "85",
+      "source": "brienne",
+      "target": "loras"
+    },
+    {
+     "id": "86",
+      "source": "olenna",
+      "target": "loras"
+    },
+    {
+     "id": "87",
+      "source": "olenna",
+      "target": "magaery"
+    },
+    {
+     "id": "88",
+      "source": "olenna",
+      "target": "cersei"
+    },
+    {
+     "id": "89",
+      "source": "olenna",
+      "target": "littlefinger"
+    },
+    {
+     "id": "90",
+      "source": "olenna",
+      "target": "varys"
+    },
+    {
+     "id": "91",
+      "source": "tywin",
+      "target": "olenna"
+    },
+    {
+     "id": "92",
+      "source": "tywin",
+      "target": "varys"
     }
-
   ],
   "nodes": [
     {
@@ -617,6 +746,41 @@
       "house" : "Clegane",
       "points": "2",
       "id": "the-mountain"
+    },
+    {
+      "name": "Magaery Tyrell",
+      "description": "Known for her beauty - Politically cunning, ambitious - Widow of Renly Baratheon and later Joffrey Baratheon",
+      "house": "Tyrell",
+      "points": "7",
+      "id": "magaery"
+    },
+    {
+      "name": "Petyr Baelish",
+      "description": "Nickname Littlefinger - A skilled manipulator - Uses his ownership of brothels in King's Landing to get intelligence on political rivals",
+      "house": "Baelish",
+      "points": "10",
+      "id": "littlefinger"
+    },
+    {
+      "name": "Varys",
+      "description": "Nickname The Spider - A eunuch - A skilled manipulator and commands a network of informants across two continents",
+      "house": "Others",
+      "points": "10",
+      "id": "varys"
+    },
+    {
+      "name": "Loras Tyrell",
+      "description": "Heir to Highgarden - A popular tourney knight and one of the most skilled knights in Westeros",
+      "house": "Tyrell",
+      "points": "5",
+      "id": "loras"
+    },
+    {
+      "name": "Olenna Tyrell",
+      "description": "Lady Olenna - The elderly matriarch of House Tyrell",
+      "house": "Tyrell",
+      "points": "5",
+      "id": "olenna"
     }
   ]
 }
