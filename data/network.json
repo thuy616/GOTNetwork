@@ -415,11 +415,6 @@
       "target": "loras"
     },
     {
-     "id": "83",
-      "source": "renly",
-      "target": "loras"
-    },
-    {
      "id": "84",
       "source": "cersei",
       "target": "loras"
@@ -463,6 +458,11 @@
      "id": "92",
       "source": "tywin",
       "target": "varys"
+    },
+    {
+     "id": "93",
+      "source": "renly",
+      "target": "loras"
     }
   ],
   "nodes": [

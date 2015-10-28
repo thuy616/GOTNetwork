@@ -43,7 +43,7 @@ sigma.parsers.json( characters_url,
               node.x = Math.random();
               node.y = Math.random();
               var pov_weight = node.pov ? node.pov : 1;
-              node.size = s.graph.degree(node.id) * pov_weight + node.points;
+              node.size = s.graph.degree(node.id) * pov_weight/10;
               console.log("name: " + node.name + ", size: " + node.size);
               node.color = colors_array[node.house] ? colors_array[node.house] : "#666";
               node.label = node.name;
